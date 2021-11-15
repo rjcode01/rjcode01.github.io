@@ -1,0 +1,450 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+/*-------------------------------- LOGO NAME SECTION  ---------------------------------  */
+
+#logo {
+  /* margin-left: 1.5rem; */
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: rgb(7, 230, 255);
+  /* background-color: burlywood; */
+}
+
+#logo a {
+  text-decoration: none;
+}
+
+#logo-s {
+  color: rgba(0, 0, 0, 0.85);
+  margin-left: 0.5rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+#logo-s:hover {
+  /* color: rgb(255, 255, 255); */
+  color: rgb(7, 230, 255);
+}
+
+/*-------------------------------- NAVBAR SECTION ---------------------------------  */
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: #2f2507;
+  align-items: center;
+  z-index: 1;
+
+}
+
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+
+/* ---------------------------------- FOR RESPONSIVE MENU ----------------------------------  */
+
+nav #icon {
+  font-size: 15px;
+  cursor: pointer;
+  padding-top: 9px;
+  display: none;
+  margin: 0 1rem;
+}
+
+nav #icon img {
+  min-width: 3.5rem;
+  min-height: 3.5rem;
+}
+
+/* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+#show-menu li {
+  font-size: 1.9rem;
+  /* font-weight: bold; */
+}
+
+#show-menu li a {
+  padding: 1rem 2rem;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+#show-menu li a:hover {
+
+  background-color: rgb(191 26 26);
+
+}
+
+#show-menu .active {
+  text-decoration: underline;
+}
+
+/* ---------------------------------- NAVBAR SECTION 3 ---------------------------------- */
+
+.signsec {
+  display: none;
+  margin-right: 2rem;
+  text-decoration: none;
+  margin-top: 0.3rem;
+}
+
+.sign a {
+  border: 0.2rem solid rgb(63, 61, 61);
+  border-radius: 1rem;
+  font-size: 1.7rem;
+  padding: 0.77rem 1.9rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.sign a:hover {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------------------ HOME SECTION ------------------------------------------------ */
+
+#Home {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  background-color: #e9ecef;
+}
+
+.about-img {
+  width: 60%;
+  height: 40%;
+  text-align: center;
+}
+
+.about-img img {
+  margin-top: 7rem;
+  /* max-width: 9%;
+  min-width: 9rem; */
+  max-width: 11%;
+  min-width: 11rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.wrapper .dynamic-txts {
+  margin-left: 1.5rem;
+  height: 7.5rem;
+  line-height: 4.5rem;
+  overflow: hidden;
+}
+
+.dynamic-txts li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  font-size: 4rem;
+  font-weight: bold;
+  position: relative;
+  top: 0;
+  animation: slide 18s steps(6) infinite;
+}
+
+@keyframes slide {
+  100% {
+    top: -50rem;
+  }
+}
+
+.dynamic-txts li span {
+  position: relative;
+}
+
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #e9ecef;
+  border-left: 0.3rem solid rgb(0, 0, 0);
+  animation: typing 1.5s steps(17) infinite alternate;
+}
+
+@keyframes typing {
+  100% {
+    left: 100%;
+    margin: 0 -3.5rem 0 3.5rem;
+  }
+}
+
+.about-img p {
+  font-size: 2rem;
+  font-family: cursive;
+  padding: 0px 0rem;
+  padding-bottom: 7rem;
+}
+
+/* ----------------------------------------------- TUTORIALS SECTION ----------------------------------------------- */
+
+#Tutorial {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+#All_tutorials h1 {
+  font-size: 5rem;
+  margin-top: 3rem;
+}
+
+#All_tutorials p {
+  font-size: 2.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-bottom: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+/* ===================================== BUTTON ===================================== */
+
+.btn {
+  color: black;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0.8rem 3rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  line-height: 1rem;
+  cursor: pointer;
+  background: rgb(191 26 26);
+
+}
+
+.btn:hover {
+  background-color: rgb(177 18 18);
+  box-shadow: 0rem 0rem 1rem rgb(140, 129, 129);
+
+}
+
+/* ===================================== FOR PYTHON, JAVA, C++, HTML, CSS, JS, DS, DBMS ===================================== */
+
+.python,
+.java,
+.cpp,
+.html,
+.css,
+.js,
+.ds,
+.dbms,
+.c,
+.i-questions {
+  width: 100%;
+  min-height: 32rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+.ds,
+.dbms,
+.c,
+.i-questions {
+  min-height: 25rem;
+  padding-top: 1rem;
+  width: 40vw;
+}
+
+
+.ds-dbms-c-i-questions {
+  margin: 4rem 0;
+  display: flex;
+  padding: 3rem 6rem;
+  background: #8686a9;
+  justify-content: center;
+}
+
+.web-temp-blogs{
+
+  /* align-items: center; */
+  text-align: center;
+  display: flex;
+  background: #c0ffd3;
+  justify-content: center;
+  padding: 5rem 0px;
+}
+.web-temp,
+.blogs{ 
+  width: 40%;
+  padding: 3rem 0;
+  text-decoration: none;
+  font-size: 5rem;
+  color: black;
+  font-weight: bold;
+}
+
+/* ===================================== PYTHON TUTORIAL ===================================== */
+
+.python {
+  background: #92cdf0;
+}
+
+/* ===================================== JAVA TUTORIAL ===================================== */
+
+.java {
+  background: rgb(207, 255, 135);
+}
+
+/* ===================================== C++ TUTORIAL ===================================== */
+
+.cpp {
+  background: #b0ffd0;
+}
+
+/* ===================================== HTML TUTORIAL ===================================== */
+
+.html {
+  background: rgb(228, 174, 174);
+}
+
+/* ===================================== CSS TUTORIAL ===================================== */
+
+.css {
+  background: rgb(190, 238, 243);
+}
+
+/* ===================================== JS TUTORIAL ===================================== */
+
+.js {
+  background: #e092f8;
+}
+
+/* ===================================== DS - DBMS - C - INTERVIES QUESTIONS TUTORIAL ===================================== */
+
+.ds-dbms-c-i-questions-p {
+  margin: -1rem 0;
+}
+/* ===================================== DS TUTORIAL ===================================== */
+
+.ds {
+  background: rgb(195 217 220);
+  margin: 0 3rem 3rem 0;
+}
+
+/* ===================================== DBMS TUTORIAL ===================================== */
+
+.dbms {
+  background: rgb(239 200 189);
+  margin: 3rem 3rem 0 0;
+}
+/* ===================================== C TUTORIAL ===================================== */
+
+.c {
+  background: rgb(39 200 189);
+  margin: 0 0 3rem 3rem;
+}
+/* ===================================== INTERVIEW QUESTIONS TUTORIAL ===================================== */
+
+.i-questions {
+  margin: 3rem 0 0 3rem;
+  background: rgb(255 142 231);
+}
+/* ===================================== WEB TEMPLATES TUTORIAL ===================================== */
+
+.web-temp {
+  background: rgb(29 200 19);
+  margin-right: 3rem;
+}
+
+.web-temp:hover{
+  background-color: rgb(23 181 14);;
+}
+/* ===================================== BLOGS TUTORIAL ===================================== */
+
+.blogs {
+  background: rgb(298 100 19);
+  margin-left: 3rem;
+
+}
+.blogs:hover{
+  background: rgb(236 91 15);
+
+}
+
+/* ------------------------------------ FOOTER SECTION ------------------------------------ */
+
+#Footer {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(238, 120, 120); */
+  background-color: rgb(47 37 7);
+  justify-content: center;
+  height: 12rem;
+  /* height: 25rem; */
+  align-items: center;
+}
+
+#Footer h2 {
+  display: flex;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 1.8rem;
+  margin: 0.1rem;
+  padding: 0 2rem;
+}
+
+
+/* Remove when content add */
+
+.update,.h-update {
+  height: 50.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b7fbdf;
+}
+
+.h-update{
+  height: 21rem;
+}
+
+.update h1 , .update h2, .h-update h1, .h-update h2{
+  text-align: center;
+  padding: 0 1rem;
+}
+.update h2, .h-update h2{
+  font-size: 2rem;
+  color: blue;
+}
+.update h2 strong,.h-update h2 strong{
+  color: rgb(255, 0, 0);
+}
+
