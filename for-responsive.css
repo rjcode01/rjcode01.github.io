@@ -1,0 +1,339 @@
+/* ---------------------------------- 1280px  ----------------------------------  */
+
+@media screen and (max-width: 1280px) {
+  #blogs {
+    display: none;
+  }
+}
+
+/* ---------------------------------- 1185px  ----------------------------------  */
+
+@media screen and (max-width: 1185px) {
+  #web-temp {
+    display: none;
+  }
+
+  .ds-dbms-c-i-questions {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .ds,
+  .dbms,
+  .c,
+  .i-questions {
+    margin: 0;
+    width: 90vw;
+  }
+  .ds {
+    margin-top: 1rem;
+  }
+  .dbms {
+    margin: 4rem 0;
+  }
+
+  .c {
+    margin-bottom: 4rem;
+  }
+  .i-questions {
+    margin-bottom: 1rem;
+  }
+}
+/* ---------------------------------- 1034px  ----------------------------------  */
+
+@media screen and (max-width: 1034px) {
+  /* ---------------------------------- FOR INTERFACE ----------------------------------  */
+  .interface-ads {
+    min-width: 18%;
+  }
+
+  #i-ques {
+    display: none;
+  }
+}
+
+/* ---------------------------------- 1000px  ----------------------------------  */
+
+@media screen and (max-width: 1000px) {
+  /* ---------------------------------- FOR RESPONSIVE MENU ----------------------------------  */
+
+  nav #icon {
+    display: block;
+
+  }
+
+  /* -------------------------------------- FOR ALL LINKS -------------------------------------- */
+
+  .title {
+    position: absolute;
+    min-width: 26rem;
+    width: 26rem;
+    height: fit-content;
+    background-color: #dcd7d8;
+    top: 14.5rem;
+    left: -100rem;
+
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+  }
+
+  #show-title.show {
+    left: 0rem;
+    top: 13.8rem;
+  }
+  .show-title.show {
+    left: 0rem;
+  }
+
+  .title-content-in-english-hindi {
+    width: 100%;
+  }
+
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  #show-menu li {
+    margin-top: -0.3rem;
+  }
+  nav ul {
+    position: absolute;
+    left: 4rem;
+    top: 10rem;
+  }
+  #home {
+    margin-left: 1rem;
+  }
+
+  .ds h1,
+  .dbms h1 {
+    margin-top: 5rem;
+  }
+  .ds,
+  .dbms {
+    min-height: 26rem;
+  }
+
+  /* -------------------------------------- FOR ALL ADVERTISEMENT -------------------------------------- */
+
+  .ads {
+    display: none;
+  }
+
+  /* --------------------------------------TUTORIALS SECTION in index.html -------------------------------------- */
+
+  #All_tutorials p {
+    font-size: 2rem;
+    padding: 0px 40px 30px 40px;
+  }
+  .python,
+  .java,
+  .cpp,
+  .html,
+  .css,
+  .js {
+    min-height: 30rem;
+    padding-top: 2rem;
+  }
+  .ds-dbms {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ds {
+    margin: 4rem 0rem 2rem 0rem;
+  }
+  .dbms {
+    margin: 2rem 0rem 4rem 0rem;
+  }
+}
+
+/* ---------------------------------- 880px  ----------------------------------  */
+
+@media screen and (max-width: 880px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  #c,
+  #dbms {
+    display: none;
+  }
+
+  .web-temp-blogs{
+    flex-direction: column;
+  }
+  .web-temp,
+  .blogs{ 
+    width: 90%;
+    margin: 0;
+    /* margin-left: 3.4rem; */
+    margin: auto;
+}
+.web-temp{
+  margin-bottom: 3rem;
+}
+
+
+}
+
+
+
+/* ---------------------------------- 750px  ----------------------------------  */
+
+@media screen and (max-width: 750px) {
+  
+  .h-update {
+    height: 35rem;
+}
+  
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+  #ds {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+  #js {
+    display: none;
+  }
+}
+/* ---------------------------------- 662px  ----------------------------------  */
+
+@media screen and (max-width: 662px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  .wrapper .dynamic-txts {
+    display: none;
+  }
+  .about-img p {
+    padding-top: 4rem;
+  }
+
+  img {
+    width: 70%;
+  }
+  table th,
+  table td {
+    padding: 12px 5px;
+  }
+  /* ---------------------------------- FOR INTERFACE  ----------------------------------  */
+
+  .interface-in-en {
+    width: 95.4%;
+  }
+}
+
+/* ---------------------------------- 550px  ----------------------------------  */
+
+@media screen and (max-width: 550px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  #css {
+    display: none;
+  }
+  /* ---------------------------------- #FOOTER NAV #CONTAINER #HOME #TUTORIAL  SECTION ----------------------------------  */
+  nav,
+  #Container,
+  #Home,
+  #Tutorial,
+  #Footer {
+    width: 100%;
+  }
+
+  /* ---------------------------------- TABLE SECTION ----------------------------------  */
+  table {
+    font-size: 15px;
+  }
+
+  /* ---------------------------------- CODE FOR ALL SECTION ----------------------------------  */
+
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: 9px !important;
+  }
+}
+
+/* ---------------------------------- 470px  ----------------------------------  */
+
+@media screen and (max-width: 470px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  #html {
+    display: none;
+  }
+  .sign a {
+    padding: 0.5rem 1rem;
+  }
+  .i-h1 {
+    padding: 2rem;
+    line-height: 1;
+  }
+  .i-questions {
+    height: 30rem;
+  }
+}
+
+/* ---------------------------------- 428px  ----------------------------------  */
+
+@media screen and (max-width: 428px) {
+  /* ---------------------------------- TABLE SECTION 2 ----------------------------------  */
+  table {
+    font-size: 14px;
+  }
+}
+
+/* ---------------------------------- 402px  ----------------------------------  */
+
+@media screen and (max-width: 402px) {
+  /* ---------------------------------- TABLE SECTION 2 ----------------------------------  */
+  table {
+    font-size: 13px;
+  }
+}
+
+/* ---------------------------------- 380px  ----------------------------------  */
+
+@media screen and (max-width: 380px) {
+  /* ---------------------------------- TABLE SECTION 2 ----------------------------------  */
+  table {
+    font-size: 12px;
+  }
+}
+
+/* ---------------------------------- 400px  ----------------------------------  */
+
+@media screen and (max-width: 400px) {
+  /* ---------------------------------- NAVBAR SECTION 2 ----------------------------------  */
+
+  #cpp {
+    display: none;
+  }
+
+  .web-temp,
+.blogs{ 
+ font-size: 4rem;
+}
+}
+/* ---------------------------------- 376px  ----------------------------------  */
+
+@media screen and (max-width: 376px) {
+  /* ---------------------------------- FOR JAVA INTERFACE  ----------------------------------  */
+
+  .interface-in-en {
+    width: 92.4%;
+  }
+}
+
+/* ---------------------------------- 360px  ----------------------------------  */
+
+@media screen and (max-width: 360px) {
+  /* ---------------------------------- FOR CODE SECTION ----------------------------------  */
+
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: 8.6px !important;
+  }
+
+  /* ---------------------------------- FOR INTERFACE  ----------------------------------  */
+
+  .interface-in-en {
+    width: 91.4%;
+  }
+}
