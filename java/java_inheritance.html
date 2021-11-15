@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Inheritance</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="shortcut icon" href="../img/rj.png" type="image/a-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../for-all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../prism.css">
+    <link rel="stylesheet" href="../for-responsive.css">
+    <script src="../prism.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- ---------------------------------- LOGO NAME SECTION  ---------------------------------- -->
+        <div class="logo">
+
+            <div id="logo"><a href="../index.html" id="logo">rJ</a><a href="../index.html"
+                    id="logo-s">Tutorial</a></div>
+        </div>
+
+        <!-- ---------------------------------- NAVBAR ---------------------------------- -->
+
+        <nav id="navbar">
+            <!-- ---------------------------------- FOR RESPONSIVE MENU ---------------------------------- -->
+            <label id="icon">
+                <img src="../img/menu.png" alt="MENU">
+            </label>
+
+            <!-- ---------------------------------- NAVBAR SECTION 2 ---------------------------------- -->
+            <div class="menu">
+                <ul id="show-menu" class="onmenu">
+                    <li><a class="active" id="home" href="../index.html">Home</a></li>
+
+                    <li><a href="../python/python.html" id="python">Python</a></li>
+                    <li><a href="../java/java.html" id="java">Java</a></li>
+                    <li><a href="../cpp/cpp.html" id="cpp">C++</a></li>
+
+                    <li><a href="../html/HTML.html" id="html">HTML</a></li>
+                    <li><a href="../css/CSS.html" id="css">CSS</a></li>
+                    <li><a href="../js/js.html" id="js">JavaScript</a></li>
+                    <li><a href="../ds/DS.html" id="ds">DS</a></li>
+                    <li><a href="../dbms/DBMS.html" id="dbms">DBMS</a></li>
+                    
+                    <li><a href="../c/c.html" id="c">C</a></li>
+                    <li><a href="../interview-questions/i-questions.html" id="i-ques">Interview Questions</a></li>
+                    <li><a href="../web-templates/web-templates.html" id="web-temp">Web Templates</a></li>
+                    <li><a href="../blogs/blogs.html" id="blogs">Blogs</a></li>
+                    <!-- <li class="con"><a href="#Contact" class="left">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <!-- ---------------------------------- NAVBAR SECTION 3 ---------------------------------- -->
+            <div class="signsec">
+                <!-- <span class="sign"><a id="act" href="#">SIGN UP</a></span> -->
+                <span class="sign"><a href="#">SIGN IN</a></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Container">
+        <div class="title" id="show-title">
+            <h1>JAVA TUTORIAL</h1>
+            <a href="../java/java.html">Java Intro</a>
+            <a href="../java/java_features.html">Java Features</a>
+            <a href="../java/java_vs_cpp.html">Java vs C++</a>
+            <a href="../java/java_simple_program.html">Java Simple Program</a>
+            <a href="../java/java_applet_vs_application.html">Java Applet vs Application</a>
+            <a href="../java/jvm_jdk_jre.html">JVM,JDK or JRE</a>
+            <a href="../java/java_keywords.html">Java Keywords</a>
+            <a href="../java/java_variables.html">Java Variables</a>
+            <a href="../java/java_literals.html">Java Literals</a>
+            <a href="../java/java_separators.html">Java Separators</a>
+            <a href="../java/java_datatypes.html">Java Datatypes</a>
+            <a href="../java/java_operators.html">Java Operators</a>
+            <a href="../java/java_statements.html">Java Statements</a>
+            <a href="../java/java_array.html">Java Array</a>
+            <a href="../java/java_string.html">Java String</a>
+            <h1>CONTROL STATEMENTS</h1>
+            <a href="../java/java_if_else.html">Java If-else</a>
+            <a href="../java/java_while_loop.html">Java While Loop</a>
+            <a href="../java/java_do_while_loop.html">Java Do-While Loop</a>
+            <a href="../java/java_for_loop.html">Java For Loop</a>
+            <a href="../java/java_for_each_loop.html">Java For-each Loop</a>
+            <a href="../java/java_switch.html">Java Switch</a>
+            <a href="../java/java_break_continue.html">Java Break/Continue</a>
+            <h1>JAVA METHODS</h1>
+            <a href="../java/java_method.html">Java Method</a>
+            <a href="../java/java_overloading.html">Java Overloading</a>
+            <a href="../java/java_overiding.html">Java Overriding</a>
+            <h1>JAVA CLASSES</h1>
+            <a href="../java/java_oops.html">Java OOPs</a>
+            <a href="../java/java_classes_objects.html">Java Classes/Objects</a>
+            <a href="../java/java_inheritance.html">Java Inheritance</a>
+            <a href="../java/java_polymorphism.html">Java Polymorphism</a>
+            <a href="../java/java_encapsulation.html">Java Encapsulation</a>
+            <a href="../java/java_abstarction.html">Java Abstraction</a>
+            <a href="../java/java_modifiers.html">Java Modifiers</a>
+            <a href="../java/java_constructors.html">Java Constructors</a>
+            <a href="../java/java_interface.html">Java Interface</a>
+            <a href="../java/java_static_keyword.html">Java static keyword</a>
+            <a href="../java/java_this_keyword.html">Java this keyword</a>
+        </div>
+        <div class="title-content-in-english-hindi">
+            <div class="upper-button">
+                <a href="../java/java_classes_objects.html" class="prev">Prev</a>
+                <a href="../java/java_polymorphism.html" class="next">Next</a>
+            </div>
+            <h1>Inheritance in Java</h1>
+            <p>Inheritance is an important pillar of OOP(Object-Oriented Programming). It is a technique in which we
+                derive a new class form existing one. The new class is called sub class and existing class is called
+                base class or super class</p>
+            <p>That means one class is allowed to inherit the features(fields and methods) of another class.</p>
+            <p><strong>Super Class:</strong> The class whose features are inherited is known as superclass(or a base
+                class or a parent class).</p>
+            <p><strong>Sub Class: </strong>The class that extends the features of another class is known as child class,
+                sub class or derived class.</p>
+            <p>Inheritance uses the <strong>extends</strong> keyword to create a derived class by reusing base class
+                code. </p>
+            <img src="inheritance.png" alt="Inheritanceimg">
+            <p><Strong>Syntax:</Strong></p>
+            <div class="stx">
+                <pre class="lang-java"><code>class Subclass-name extends Superclass-name  
+{  
+    //fields and methods  
+}</code></pre>
+            </div>
+
+            <h2>Example:</h2>
+            <pre class="language-java"><code>class Calculation {
+    int c;
+        
+    public void addition(int a, int b) {
+        c = a + b;
+        System.out.println("Addition : "+c);
+    } 
+}
+
+public class SubCalculation extends Calculation {
+    public void subtraction(int a, int b) {
+        c = a - b;
+        System.out.println("Substraction : "+c);
+    }
+        
+    public static void main(String args[]) {
+        int x = 20, y = 10;
+        SubCalculation obj = new SubCalculation();
+        obj.addition(x, y);
+        obj.subtraction(x, y);
+       ;
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>Addition : 30</pre>
+                <pre>Substraction : 10</pre>
+            </div>
+            <p>In the following example we can observe two classes namely Calculation and SubCalculation.</p>
+            <p>Using extends keyword, the SubCalculation inherits the methods addition() of Calculation class.</p>
+            <h2>Types of inheritance in java</h2>
+            <p>There ara five types of inheritance:</p>
+            <p>But on the basis of class, there can be three types of inheritance available in java: single, multilevel
+                and hierarchical inheritance.</p>
+            <p>And in java programming, multiple and hybrid inheritance is supported through interface only.</p>
+            <h2>Single Inheritance</h2>
+            <p> In single inheritance, subclasses inherit the features of one superclass. In the image below, class A
+                serves as a base class for the derived class B.</p>
+            <img src="I1.png" alt="Single inheritance">
+            <h2>Example:</h2>
+            <pre class="language-java"><code>class A 
+{ 
+    int a, b; 
+    void display() 
+    { 
+    System.out.println(“Inside class A values : ”+a+” and ”+b); 
+    } 
+} 
+class B extends A 
+{ 
+    int c; 
+    void show() 
+    { 
+    System.out.println(“Inside Class B values : ”+a+” , “+b+” and “+c);  } 
+} 
+class SingleInheritance 
+{ 
+    public static void main(String args[]) 
+{ 
+    B obj = new B(); //derived class object 
+    obj.a=10; 
+    obj.b=20; 
+    obj.c=30; 
+    obj.display(); 
+    obj.show(); 
+    } 
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>Inside class A values : 10 and 20</pre>
+                <pre>Inside Class B values : 10 , 20 and 30</pre>
+            </div>
+
+            <h2>Multilevel Inheritance</h2>
+            <p>When a class is inherited form another derive class then this type fo inheritance is called multilevel
+                inheritance. In the below image, class A serves as a base class for the derived class B, which in turn
+                serves as a base class for the derived class C.</p>
+            <img src="I2.PNG" alt="multilevel inheritance">
+            <h2>Example:</h2>
+            <pre class="language-java"><code>// Java program to illustrate the
+// concept of Multilevel inheritance
+class A {
+    public void message1()
+    {
+        System.out.println("Class A");
+    }
+}
+
+class B extends A {
+    public void message2()
+    {
+        System.out.println("Class B");
+    }
+}
+
+class C extends B {
+    public void message3()
+    {
+        System.out.println("Class C");
+    }
+}
+
+
+public class MultilevelInheritance {
+    public static void main(String[] args)
+    {
+        C obj = new C();
+        obj.message1();
+        obj.message2();
+        obj.message3();
+    }
+}
+</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>Class A</pre>
+                <pre>Class B</pre>
+                <pre>Class C</pre>
+            </div>
+            <h2>Hierarchical Inheritance</h2>
+            <p>When more then one class is derive from a single base class this tyep of inheritance is called
+                hierarchical inheritance. In the below image, class A serves as a base class for the derived class B and
+                C.</p>
+            <img src="I3.PNG" alt="hierarchical inheritance">
+            <h2>Example:</h2>
+            <pre class="language-java"><code>// Java program to illustrate the
+// concept of Hierarchical inheritance
+
+class A {
+    public void message1() 
+    {
+        System.out.println("Class A"); 
+    }
+}
+
+class B extends A {
+    public void message2() 
+    {
+        System.out.println("Class B"); 
+    }
+}
+
+class C extends A {
+    public void message3() 
+    {
+        System.out.println("Class C"); 
+    }
+}
+
+
+
+public class hierarchicalInheritance {
+    public static void main(String[] args)
+    {
+        B obj = new B();
+        obj.message1();
+        obj.message2();
+
+        C obj2 = new C();
+        obj2.message1();
+        obj2.message3();
+
+     
+    }
+}
+</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>Class A</pre>
+                <pre>Class B</pre>
+                <pre>Class A</pre>
+                <pre>Class C</pre>
+
+            </div>
+
+            <!-- <h2>Multiple Inheritance</h2>
+            <p> In this, one class can have more than one superclass and inherit features from all parent classes. Java does not support multiple inheritances with classes. In java, we can achieve multiple inheritances with the help of Interfaces. In the image below, Class C is derived from interface A and B.</p>
+            <img src="I4.png" alt="Multiple inheritance">
+            <pre class="language-java"><code>// Java program to illustrate the
+// concept of Multiple inheritance
+
+interface A {
+    public void message1();
+}
+    
+interface B {
+    public void message2();
+}
+    
+interface three extends A, B {
+    public void message3();
+}
+class child implements three {
+    @Override public void message1()
+    {
+        System.out.println("Geeks");
+    }
+    
+    public void message2() 
+    { 
+        System.out.println("for"); 
+    }
+}
+    
+// Drived class
+public class Main {
+    public static void main(String[] args)
+    {
+        child c = new child();
+        c.print_geek();
+        c.print_for();
+        c.print_geek();
+    }
+}</code></pre> -->
+            <div class="buttom-button">
+                <a href="../java/java_classes_objects.html" class="prev">Prev</a>
+                <a href="../java/java_polymorphism.html" class="next">Next</a>
+            </div>
+        </div>
+        <div class="ads">
+
+        </div>
+
+    </section>
+    <!-- SECTION FOOTER -->
+
+    <section id="Footer">
+        <h2>Copyright © 2021-2022 rJTutorial.com | All right reserved</h2>
+        <h2>Designed by rJCode</h2>
+      </section>
+
+
+
+</body>
+
+<script src="../for-all.js"></script>
+<script src="../index.js"></script>
+
+</html>

@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Operators</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="shortcut icon" href="../img/rj.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../for-all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../prism.css">
+    <link rel="stylesheet" href="../for-responsive.css">
+    <script src="../prism.js"></script>
+</head>
+
+<body>
+    
+    <header>
+
+        <!-- ---------------------------------- LOGO NAME SECTION  ---------------------------------- -->
+        <div class="logo">
+
+            <div id="logo"><a href="../index.html" id="logo">rJ</a><a href="../index.html"
+                    id="logo-s">Tutorial</a></div>
+        </div>
+
+        <!-- ---------------------------------- NAVBAR ---------------------------------- -->
+
+        <nav id="navbar">
+            <!-- ---------------------------------- FOR RESPONSIVE MENU ---------------------------------- -->
+            <label id="icon">
+                <img src="../img/menu.png" alt="MENU">
+            </label>
+
+            <!-- ---------------------------------- NAVBAR SECTION 2 ---------------------------------- -->
+            <div class="menu">
+                <ul id="show-menu" class="onmenu">
+                    <li><a class="active" id="home" href="../index.html">Home</a></li>
+
+                    <li><a href="../python/python.html" id="python">Python</a></li>
+                    <li><a href="../java/java.html" id="java">Java</a></li>
+                    <li><a href="../cpp/cpp.html" id="cpp">C++</a></li>
+
+                    <li><a href="../html/HTML.html" id="html">HTML</a></li>
+                    <li><a href="../css/CSS.html" id="css">CSS</a></li>
+                    <li><a href="../js/js.html" id="js">JavaScript</a></li>
+                    <li><a href="../ds/DS.html" id="ds">DS</a></li>
+                    <li><a href="../dbms/DBMS.html" id="dbms">DBMS</a></li>
+                    
+                    <li><a href="../c/c.html" id="c">C</a></li>
+                    <li><a href="../interview-questions/i-questions.html" id="i-ques">Interview Questions</a></li>
+                    <li><a href="../web-templates/web-templates.html" id="web-temp">Web Templates</a></li>
+                    <li><a href="../blogs/blogs.html" id="blogs">Blogs</a></li>
+                    <!-- <li class="con"><a href="#Contact" class="left">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <!-- ---------------------------------- NAVBAR SECTION 3 ---------------------------------- -->
+            <div class="signsec">
+                <!-- <span class="sign"><a id="act" href="#">SIGN UP</a></span> -->
+                <span class="sign"><a href="#">SIGN IN</a></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Container">
+        <div class="title" id="show-title">
+            <h1>JAVA TUTORIAL</h1>
+            <a href="../java/java.html">Java Intro</a>
+            <a href="../java/java_features.html">Java Features</a>
+            <a href="../java/java_vs_cpp.html">Java vs C++</a>
+            <a href="../java/java_simple_program.html">Java Simple Program</a>
+            <a href="../java/java_applet_vs_application.html">Java Applet vs Application</a>
+            <a href="../java/jvm_jdk_jre.html">JVM,JDK or JRE</a>
+            <a href="../java/java_keywords.html">Java Keywords</a>
+            <a href="../java/java_variables.html">Java Variables</a>
+            <a href="../java/java_literals.html">Java Literals</a>
+            <a href="../java/java_separators.html">Java Separators</a>
+            <a href="../java/java_datatypes.html">Java Datatypes</a>
+            <a href="../java/java_operators.html">Java Operators</a>
+            <a href="../java/java_statements.html">Java Statements</a>
+            <a href="../java/java_array.html">Java Array</a>
+            <a href="../java/java_string.html">Java String</a>
+            <h1>CONTROL STATEMENTS</h1>
+            <a href="../java/java_if_else.html">Java If-else</a>
+            <a href="../java/java_while_loop.html">Java While Loop</a>
+            <a href="../java/java_do_while_loop.html">Java Do-While Loop</a>
+            <a href="../java/java_for_loop.html">Java For Loop</a>
+            <a href="../java/java_for_each_loop.html">Java For-each Loop</a>
+            <a href="../java/java_switch.html">Java Switch</a>
+            <a href="../java/java_break_continue.html">Java Break/Continue</a>
+            <h1>JAVA METHODS</h1>
+            <a href="../java/java_method.html">Java Method</a>
+            <a href="../java/java_overloading.html">Java Overloading</a>
+            <a href="../java/java_overiding.html">Java Overriding</a>
+            <h1>JAVA CLASSES</h1>
+            <a href="../java/java_oops.html">Java OOPs</a>
+            <a href="../java/java_classes_objects.html">Java Classes/Objects</a>
+            <a href="../java/java_inheritance.html">Java Inheritance</a>
+            <a href="../java/java_polymorphism.html">Java Polymorphism</a>
+            <a href="../java/java_encapsulation.html">Java Encapsulation</a>
+            <a href="../java/java_abstarction.html">Java Abstraction</a>
+            <a href="../java/java_modifiers.html">Java Modifiers</a>
+            <a href="../java/java_constructors.html">Java Constructors</a>
+            <a href="../java/java_interface.html">Java Interface</a>
+            <a href="../java/java_static_keyword.html">Java static keyword</a>
+            <a href="../java/java_this_keyword.html">Java this keyword</a>
+        </div>
+        <div class="title-content-in-english-hindi">
+            <div class="upper-button">
+                <a href="../java/java_datatypes.html" class="prev">Prev</a>
+                <a href="../java/java_statements.html" class="next">Next</a>
+            </div>
+            <h1>Java Operators</h1>
+            <p>In this page, we'll learn about different types of operators in Java, their syntax and how to use them
+                with the help of examples.</p>
+            <br>
+            <p>Operators are symbols that perform operations on variables and values. For example, <strong>+</strong> is
+                an operator used for addition, <strong>-</strong> is an operator used for subtraction, while
+                <strong>/</strong> is also an operator used for division.
+            </p>
+            <h2>There are many types of Operators in Java:</h2>
+            <h3>1. Arithmetic Operators</h3>
+            <h3>2. Unary Operators</h3>
+            <h3>3. Assignment Operators</h3>
+            <h3>4. Relational Operators</h3>
+            <h3>5. Bitwise Operators</h3>
+            <h3>6. Logical Operators</h3>
+
+            <h2>1) Java Arithmetic Operators</h2>
+            <p>Arithmetic operators are used to perform arithmetic operations on variables and data. They act as basic
+                mathematical operations.</p>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Operator</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>+</td>
+                    <td>Addition</td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>Subtraction</td>
+                </tr>
+                <tr>
+                    <td>*</td>
+                    <td>Multiplication</td>
+                </tr>
+                <tr>
+                    <td>/</td>
+                    <td>Division</td>
+                </tr>
+                <tr>
+                    <td>%</td>
+                    <td>Modulo Operation (Remainder after division)</td>
+                </tr>
+
+            </table>
+
+            <h2>Example of Arithmetic Operators</h2>
+            <pre class="language-java"><code>class OperatorsTest{
+    public static void main(String args[]){
+    int a = 10;
+    int b = 4;
+        System.out.println("a + b = " + (a + b)); //addition operator
+        System.out.println("a - b = " + (a - b)); //subtraction operator
+        System.out.println("a * b = " + (a * b)); //Multiplication operator
+        System.out.println("a / b = " + (a / b)); //division operator
+        System.out.println("a % b = " + (a % b)); //Modulo operator
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <p>a + b = 14</p>
+                <p>a - b = 6</p>
+                <p>a * b = 40</p>
+                <p>a / b = 2</p>
+                <p>a % b = 2</p>
+            </div>
+            <p>In the above example, we have used +, -, *, / and % operators to compute addition, subtraction,
+                multiplication division and Modulo operations.</p>
+            <h2>Division Operator /</h2>
+            <p>If we use the division operator with two integers, then the resulting quotient will also be an integer.
+                And, if one of the operands is a floating-point number, we will get the result will also be in
+                floating-point.</p>
+            <h2>Modulo Operator %</h2>
+            <p>The modulo operator % computes the remainder. When a = 10 is divided by b = 4, the remainder is 2.</p>
+            <p><strong>Note:</strong>The % operator is mainly used with integers.</p>
+            <h2>2) Java Unary Operators</h2>
+            <p>Unary operators are used with only one operand. For example, -- is a unary operator that decreases the
+                value of a variable by 1. That is, --5 will return 4</p>
+
+            <p>There are many types of unary operators are:</p>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Operator</th>
+                        <th>Meaning</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>+</td>
+                    <td><strong>Unary plus:</strong> not necessary to use since numbers are positive without using it
+                    </td>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td><strong>Unary minus:</strong> inverts the sign of an expression</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td><strong>Decrement operator:</strong> decrements value by 1</td>
+                </tr>
+                <tr>
+                    <td>++</td>
+                    <td><strong>Increment operator:</strong> increments value by 1</td>
+                </tr>
+                <tr>
+                    <td>!</td>
+                    <td><strong>Logical complement operator:</strong> inverts the value of a boolean</td>
+                </tr>
+
+            </table>
+            <h2>Increment and Decrement Operators</h2>
+            <p>Java also provides increment and decrement operators: <strong>++</strong> and <strong>--</strong>
+                respectively. <strong>++</strong> increases the value of the operand by 1, while <strong>--</strong>
+                decrease it by 1.</p>
+            <h2>Example of Increment and Decrement Operators</h2>
+            <pre class="language-java"><code>class OperatorsTest{
+    public static void main(String args[]){
+    int x = 2;
+    int y = 6;
+    int a, b;
+        System.out.println("Original value of x is: " + x);
+        a = ++x; //increment operator
+        System.out.println("After increment: " + a);
+        System.out.println("Original value of y is: " + y);
+        b = --y; //decrement operator
+        System.out.println("After decrement: " + b);
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <p>Original value of x is: 2</p>
+                <p>After increment: 3</p>
+                <p>Original value of y is: 6</p>
+                <p>After decrement: 5</p>
+            </div>
+            <p>In the above program, we have used the <strong>++</strong> and <strong>--</strong> operator as
+                <strong>prefixes (++a, --b)</strong>. We can also use these operators as <strong>postfix (a++,
+                    b++)</strong>.
+            </p>
+            <p>There is a slight difference when these operators are used as prefix versus when they are used as a
+                postfix.</p>
+            <h2>3) Java Assignment Operators</h2>
+            <p>Java assignment operator is one of the most common operator. It is used to assign the value on its
+                <strong>right</strong> to the operand on its <strong>left</strong>.
+            </p>
+            <h2>There are following assignment operators available in Java.</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operator</th>
+                        <th>Example</th>
+                        <th>Equivalent to</th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td>=</td>
+                    <td>a = b;</td>
+                    <td>a = b;</td>
+                </tr>
+                <tr>
+                    <td>+=</td>
+                    <td>a += b;</td>
+                    <td>a = a + b;</td>
+                </tr>
+                <tr>
+                    <td>-=</td>
+                    <td>a -= b;</td>
+                    <td>a = a - b;</td>
+                </tr>
+                <tr>
+                    <td>*=</td>
+                    <td>a *= b;</td>
+                    <td>a = a * b;</td>
+                </tr>
+                <tr>
+                    <td>/=</td>
+                    <td>a /= b;</td>
+                    <td>a = a / b;</td>
+                </tr>
+                <tr>
+                    <td>%=</td>
+                    <td>a %= b;</td>
+                    <td>a = a % b;</td>
+                </tr>
+
+            </table>
+            <h2>Example of Assignment Operators</h2>
+            <pre class="language-java"><code>class OperatorsTest{
+    public static void main(String args[]){
+    int x = 20;
+    int a;
+        a = x; //assign value using =
+        System.out.println("Value of a: " + a);
+        a -= x; //assign value using -=
+        System.out.println("Value of a: " + a);
+        a *= x; //assign value using *=
+        System.out.println("Value of a: " + a);
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <p>Value of a: 20</p>
+                <p>Value of a: 0</p>
+                <p>Value of a: 0</p>
+
+            </div>
+            <h2>4) Java Relational Operators</h2>
+            <p>Relational operators are used to check the relationship between two operands.</p>
+            <h2>There are following relational operators available in Java.</h2>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Operator</th>
+                        <th>Description</th>
+
+                    </tr>
+                </thead>
+                <tr>
+                    <td>==</td>
+                    <td>Is Equal To</td>
+
+                </tr>
+                <tr>
+                    <td>!=</td>
+                    <td>Not Equal To</td>
+
+                </tr>
+                <tr>
+                    <td>></td>
+                    <td>Greater Than</td>
+
+                </tr>
+                <tr>
+                    <td>&lt;</td>
+                    <td>Less Than</td>
+
+                </tr>
+                <tr>
+                    <td>>=</td>
+                    <td>Greater Than or Equal To</td>
+
+                </tr>
+                <tr>
+                    <td>&lt=</td>
+                    <td>Less Than or Equal To</td>
+
+                </tr>
+
+            </table>
+
+            <h2>Example of Relational Operators</h2>
+            <pre class="language-java"><code>class OperatorsTest{
+    public static void main(String args[]){
+    int a = 10;
+    int b = 20;
+        System.out.println("Value of a is: " + a + "and b is: "+ b);
+        System.out.println(a == b); //using == operator
+        System.out.println(a != b); //using != operator
+        System.out.println(a > b); //using > operator
+        System.out.println(a &lt; b); //using &lt; operator
+        System.out.println(a >= b); //using >= operator
+        System.out.println(a &lt;= b); //using &lt;= operator
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <p>false</p>
+                <p>true</p>
+                <p>false</p>
+                <p>true</p>
+                <p>false</p>
+                <p>true</p>
+
+            </div>
+            <p><strong>Note:</strong> Relational operators are used in decision making and loops.</p>
+            <h2>5) Java Bitwise Operators</h2>
+            <p>Bitwise operators in Java are used to perform operations on individual bits.</p>
+            <h2>There are following bitwise operators available in Java.</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Operator</th>
+                        <th>Description</th>
+
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td>~</td>
+                    <td>Bitwise Complement</td>
+
+                </tr>
+                <tr>
+                    <td>>></td>
+                    <td>Right Shift</td>
+
+                </tr>
+                <tr>
+                    <td>&lt&lt;</td>
+                    <td>Left Shift</td>
+
+                </tr>
+                <tr>
+                    <td>>>></td>
+                    <td>Unsigned Right Shift</td>
+
+                </tr>
+                <tr>
+                    <td>&</td>
+                    <td>Bitwise AND</td>
+
+                </tr>
+                <tr>
+                    <td>|</td>
+                    <td>Bitwise OR</td>
+
+                </tr>
+                <tr>
+                    <td>^</td>
+                    <td>Bitwise exclusive OR</td>
+
+                </tr>
+
+            </table>
+            <h2>Example of Bitwise Operators</h2>
+
+            <h2>6) Java Logical Operators</h2>
+            <p>Logical operators are used to check whether an expression is true or false. They are used in decision
+                making.</p>
+            <h2>There are following logical operators available in Java.</h2>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Operator</th>
+                        <th>Description</th>
+
+                    </tr>
+                </thead>
+                <tr>
+                    <td>||</td>
+                    <td>Logical OR</td>
+
+                </tr>
+                <tr>
+                    <td>&&</td>
+                    <td>Logical AND</td>
+
+                </tr>
+                <tr>
+                    <td>!</td>
+                    <td>Logical NOT</td>
+
+                </tr>
+            </table>
+
+            <h2>Example of Logical Operators</h2>
+            <pre class="language-java"><code>class OperatorsTest{
+    public static void main(String args[]){
+    int a = 10;
+    int b = 6;
+    int c = 23;
+        System.out.println((a > b) || (c &lt; a); //using || operator
+        System.out.println((a &lt; b) || (c > a);
+        System.out.println((a &lt; b) || (c &lt; a);
+
+        System.out.println((a > b) && (c > a); //using && operator
+        System.out.println((a > b) && (c &lt; a);
+
+        System.out.println(a == b); //using ! operator
+        System.out.println(a > b);
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+
+                <p>true</p>
+                <p>true</p>
+                <p>false</p>
+
+                <p>true</p>
+                <p>false</p>
+
+                <p>true</p>
+                <p>false</p>
+
+            </div>
+            <div class="buttom-button">
+                <a href="../java/java_datatypes.html" class="prev">Prev</a>
+                <a href="../java/java_statements.html" class="next">Next</a>
+            </div>
+        </div>
+        <div class="ads">
+        
+        </div>
+
+
+    </section>
+    <!-- SECTION FOOTER -->
+
+    <section id="Footer">
+        <h2>Copyright © 2021-2022 rJTutorial.com | All right reserved</h2>
+        <h2>Designed by rJCode</h2>
+      </section>
+
+
+</body>
+
+<script src="../for-all.js"></script>
+<script src="../index.js"></script>
+
+</html>

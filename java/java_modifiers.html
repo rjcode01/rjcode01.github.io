@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Modifiers</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="shortcut icon" href="../img/rj.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../for-all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../prism.css">
+    <link rel="stylesheet" href="../for-responsive.css">
+    <script src="../prism.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- ---------------------------------- LOGO NAME SECTION  ---------------------------------- -->
+        <div class="logo">
+
+            <div id="logo"><a href="../index.html" id="logo">rJ</a><a href="../index.html"
+                    id="logo-s">Tutorial</a></div>
+        </div>
+
+        <!-- ---------------------------------- NAVBAR ---------------------------------- -->
+
+        <nav id="navbar">
+            <!-- ---------------------------------- FOR RESPONSIVE MENU ---------------------------------- -->
+            <label id="icon">
+                <img src="../img/menu.png" alt="MENU">
+            </label>
+
+            <!-- ---------------------------------- NAVBAR SECTION 2 ---------------------------------- -->
+            <div class="menu">
+                <ul id="show-menu" class="onmenu">
+                    <li><a class="active" id="home" href="../index.html">Home</a></li>
+
+                    <li><a href="../python/python.html" id="python">Python</a></li>
+                    <li><a href="../java/java.html" id="java">Java</a></li>
+                    <li><a href="../cpp/cpp.html" id="cpp">C++</a></li>
+
+                    <li><a href="../html/HTML.html" id="html">HTML</a></li>
+                    <li><a href="../css/CSS.html" id="css">CSS</a></li>
+                    <li><a href="../js/js.html" id="js">JavaScript</a></li>
+                    <li><a href="../ds/DS.html" id="ds">DS</a></li>
+                    <li><a href="../dbms/DBMS.html" id="dbms">DBMS</a></li>
+                    
+                    <li><a href="../c/c.html" id="c">C</a></li>
+                    <li><a href="../interview-questions/i-questions.html" id="i-ques">Interview Questions</a></li>
+                    <li><a href="../web-templates/web-templates.html" id="web-temp">Web Templates</a></li>
+                    <li><a href="../blogs/blogs.html" id="blogs">Blogs</a></li>
+                    <!-- <li class="con"><a href="#Contact" class="left">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <!-- ---------------------------------- NAVBAR SECTION 3 ---------------------------------- -->
+            <div class="signsec">
+                <!-- <span class="sign"><a id="act" href="#">SIGN UP</a></span> -->
+                <span class="sign"><a href="#">SIGN IN</a></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Container">
+        <div class="title" id="show-title">
+            <h1>JAVA TUTORIAL</h1>
+            <a href="../java/java.html">Java Intro</a>
+            <a href="../java/java_features.html">Java Features</a>
+            <a href="../java/java_vs_cpp.html">Java vs C++</a>
+            <a href="../java/java_simple_program.html">Java Simple Program</a>
+            <a href="../java/java_applet_vs_application.html">Java Applet vs Application</a>
+            <a href="../java/jvm_jdk_jre.html">JVM,JDK or JRE</a>
+            <a href="../java/java_keywords.html">Java Keywords</a>
+            <a href="../java/java_variables.html">Java Variables</a>
+            <a href="../java/java_literals.html">Java Literals</a>
+            <a href="../java/java_separators.html">Java Separators</a>
+            <a href="../java/java_datatypes.html">Java Datatypes</a>
+            <a href="../java/java_operators.html">Java Operators</a>
+            <a href="../java/java_statements.html">Java Statements</a>
+            <a href="../java/java_array.html">Java Array</a>
+            <a href="../java/java_string.html">Java String</a>
+            <h1>CONTROL STATEMENTS</h1>
+            <a href="../java/java_if_else.html">Java If-else</a>
+            <a href="../java/java_while_loop.html">Java While Loop</a>
+            <a href="../java/java_do_while_loop.html">Java Do-While Loop</a>
+            <a href="../java/java_for_loop.html">Java For Loop</a>
+            <a href="../java/java_for_each_loop.html">Java For-each Loop</a>
+            <a href="../java/java_switch.html">Java Switch</a>
+            <a href="../java/java_break_continue.html">Java Break/Continue</a>
+            <h1>JAVA METHODS</h1>
+            <a href="../java/java_method.html">Java Method</a>
+            <a href="../java/java_overloading.html">Java Overloading</a>
+            <a href="../java/java_overiding.html">Java Overriding</a>
+            <h1>JAVA CLASSES</h1>
+            <a href="../java/java_oops.html">Java OOPs</a>
+            <a href="../java/java_classes_objects.html">Java Classes/Objects</a>
+            <a href="../java/java_inheritance.html">Java Inheritance</a>
+            <a href="../java/java_polymorphism.html">Java Polymorphism</a>
+            <a href="../java/java_encapsulation.html">Java Encapsulation</a>
+            <a href="../java/java_abstarction.html">Java Abstraction</a>
+            <a href="../java/java_modifiers.html">Java Modifiers</a>
+            <a href="../java/java_constructors.html">Java Constructors</a>
+            <a href="../java/java_interface.html">Java Interface</a>
+            <a href="../java/java_static_keyword.html">Java static keyword</a>
+            <a href="../java/java_this_keyword.html">Java this keyword</a>
+        </div>
+        <div class="title-content-in-english-hindi">
+            <div class="upper-button">
+                <a href="../java/java_abstarction.html" class="prev">Prev</a>
+                <a href="../java/java_constructors.html" class="next">Next</a>
+            </div>
+            <h1>Modifiers in Java</h1>
+            <p>The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or
+                class. We can change the access level of fields, constructors, methods, and class by applying the access
+                modifier on it.</p>
+            <p>There are two types of modifiers in Java:</p>
+            <p><strong>1. Access modifiers</strong></p>
+            <p><strong>2. Non-access modifiers</strong></p>
+            <h2>Access modifiers</h2>
+            <p>As the name suggests access modifiers in Java helps to restrict the scope of a class, constructor,
+                variable, method, or data member. There are four types of access modifiers available in java: </p>
+            <h3>1. Default – No keyword required</h3>
+            <h3>2. Private</h3>
+            <h3>3. Public</h3>
+            <h3>4. Protected</h3>
+            <h2>Default</h2>
+            <p>If we don’t specify any access modifier then it is treated as default modifier. It is used to set
+                accessibility within the package. It means we can not access its method or class fro outside the
+                package. It is also known as package accessibility modifier.</p>
+            <h2>Example:</h2>
+            <pre class="language-java"><code>//save by Simple.java
+package package1;
+public class Simple {
+    int a = 20;
+    // default access modifier
+    void display() {
+    System.out.println(a);
+    }
+}</code></pre>
+
+            <pre class="language-java"><code>//save by Test.java
+import package1.Simple;
+public class Test {
+    
+    public static void main(String[] args) {
+    Simple obj = new Simple();
+    obj.display(); // compile error
+    }
+}</code></pre>
+
+            <p><strong>Output:</strong></p>
+            <div class="m-output output res-rj">
+                <pre>The method display() from the type Simple is not visible</pre>
+            </div>
+
+            <h2>Private</h2>
+            <p>The methods or data members declared as private are accessible only within the class in which they are
+                declared.</p>
+            <p>Any other class of the same package will not be able to access these members.</p>
+
+            <h2>Example:</h2>
+            <pre class="language-java"><code>//save by Simple.java
+
+class Simple {
+
+    int a = 20;
+    // private access modifier
+    private void display() {
+        System.out.println(a);
+    }
+}</code></pre>
+
+            <pre class="language-java"><code>//save by Test.java
+
+public class Test {
+
+    public static void main(String[] args) {
+        Simple obj = new Simple();  
+        obj.display(); // compile error
+    }
+}</code></pre>
+            <p><strong>Output:</strong></p>
+            <div class="m-output output res-rj">
+                <pre>
+The method display() from the type Simple is not visible</pre>
+            </div>
+
+            <h2>Public</h2>
+            <p>There isn’t any restriction on the classes, methods, and data members defined by the Public Access
+                Modifiers. They can be accessed from anywhere. The keyword ‘public’ is used to define the Public Access
+                Modifier.</p>
+            <h2>Example:</h2>
+            <pre class="language-java"><code>//save by Simple.java
+package package1;
+public class Simple {
+    int a = 20;
+    // public access modifier
+    public void display() {
+    System.out.println(a);
+    }
+}</code></pre>
+
+            <pre class="language-java"><code>//save by Test.java
+package package2;
+import package1.Simple;
+public class Test {
+    
+    public static void main(String[] args) {
+    Simple obj = new Simple();
+    obj.display(); 
+    }
+}</code></pre>
+
+            <P><strong>Output:</strong></P>
+            <div class="output">
+                <pre>20</pre>
+            </div>
+
+            <h2>Protected</h2>
+            <p>The methods or data members declared as protected are accessible within the same package or subclasses in
+                different packages.</p>
+            <h2>Example:</h2>
+            <pre class="language-java"><code>//save by Simple.java
+package package1;
+public class Simple {
+    int a = 20;
+    // public access modifier
+    public void display() {
+    System.out.println(a);
+    }
+}</code></pre>
+
+            <pre class="language-java"><code>//save by Test.java
+package package2;
+import package1.Simple;
+public class Test {
+    
+    public static void main(String[] args) {
+    Test obj = new Test();
+    obj.display();
+    }
+}</code></pre>
+
+            <P><strong>Output:</strong></P>
+            <div class="output">
+                <pre>20</pre>
+            </div>
+
+
+            <div class="buttom-button">
+                <a href="../java/java_abstarction.html" class="prev">Prev</a>
+                <a href="../java/java_constructors.html" class="next">Next</a>
+            </div>
+        </div>
+        <div class="ads">
+        
+        </div>
+
+
+    </section>
+    <!-- SECTION FOOTER -->
+    <section id="Footer">
+        <h2>Copyright © 2021-2022 rJTutorial.com | All right reserved</h2>
+        <h2>Designed by rJCode</h2>
+      </section>
+
+
+
+</body>
+
+<script src="../for-all.js"></script>
+<script src="../index.js"></script>
+
+</html>

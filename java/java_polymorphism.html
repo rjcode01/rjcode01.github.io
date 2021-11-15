@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Polymorphism</title>
+    <!-- Font Awesome Icon Library -->
+    <link rel="shortcut icon" href="../img/rj.png" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../for-all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../prism.css">
+    <link rel="stylesheet" href="../for-responsive.css">
+    <script src="../prism.js"></script>
+</head>
+
+<body>
+   
+    <header>
+
+        <!-- ---------------------------------- LOGO NAME SECTION  ---------------------------------- -->
+        <div class="logo">
+
+            <div id="logo"><a href="../index.html" id="logo">rJ</a><a href="../index.html"
+                    id="logo-s">Tutorial</a></div>
+        </div>
+
+        <!-- ---------------------------------- NAVBAR ---------------------------------- -->
+
+        <nav id="navbar">
+            <!-- ---------------------------------- FOR RESPONSIVE MENU ---------------------------------- -->
+            <label id="icon">
+                <img src="../img/menu.png" alt="MENU">
+            </label>
+
+            <!-- ---------------------------------- NAVBAR SECTION 2 ---------------------------------- -->
+            <div class="menu">
+                <ul id="show-menu" class="onmenu">
+                    <li><a class="active" id="home" href="../index.html">Home</a></li>
+
+                    <li><a href="../python/python.html" id="python">Python</a></li>
+                    <li><a href="../java/java.html" id="java">Java</a></li>
+                    <li><a href="../cpp/cpp.html" id="cpp">C++</a></li>
+
+                    <li><a href="../html/HTML.html" id="html">HTML</a></li>
+                    <li><a href="../css/CSS.html" id="css">CSS</a></li>
+                    <li><a href="../js/js.html" id="js">JavaScript</a></li>
+                    <li><a href="../ds/DS.html" id="ds">DS</a></li>
+                    <li><a href="../dbms/DBMS.html" id="dbms">DBMS</a></li>
+                    
+                    <li><a href="../c/c.html" id="c">C</a></li>
+                    <li><a href="../interview-questions/i-questions.html" id="i-ques">Interview Questions</a></li>
+                    <li><a href="../web-templates/web-templates.html" id="web-temp">Web Templates</a></li>
+                    <li><a href="../blogs/blogs.html" id="blogs">Blogs</a></li>
+                    <!-- <li class="con"><a href="#Contact" class="left">Contact</a></li> -->
+                </ul>
+            </div>
+
+            <!-- ---------------------------------- NAVBAR SECTION 3 ---------------------------------- -->
+            <div class="signsec">
+                <!-- <span class="sign"><a id="act" href="#">SIGN UP</a></span> -->
+                <span class="sign"><a href="#">SIGN IN</a></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="Container">
+        <div class="title" id="show-title">
+            <h1>JAVA TUTORIAL</h1>
+            <a href="../java/java.html">Java Intro</a>
+            <a href="../java/java_features.html">Java Features</a>
+            <a href="../java/java_vs_cpp.html">Java vs C++</a>
+            <a href="../java/java_simple_program.html">Java Simple Program</a>
+            <a href="../java/java_applet_vs_application.html">Java Applet vs Application</a>
+            <a href="../java/jvm_jdk_jre.html">JVM,JDK or JRE</a>
+            <a href="../java/java_keywords.html">Java Keywords</a>
+            <a href="../java/java_variables.html">Java Variables</a>
+            <a href="../java/java_literals.html">Java Literals</a>
+            <a href="../java/java_separators.html">Java Separators</a>
+            <a href="../java/java_datatypes.html">Java Datatypes</a>
+            <a href="../java/java_operators.html">Java Operators</a>
+            <a href="../java/java_statements.html">Java Statements</a>
+            <a href="../java/java_array.html">Java Array</a>
+            <a href="../java/java_string.html">Java String</a>
+            <h1>CONTROL STATEMENTS</h1>
+            <a href="../java/java_if_else.html">Java If-else</a>
+            <a href="../java/java_while_loop.html">Java While Loop</a>
+            <a href="../java/java_do_while_loop.html">Java Do-While Loop</a>
+            <a href="../java/java_for_loop.html">Java For Loop</a>
+            <a href="../java/java_for_each_loop.html">Java For-each Loop</a>
+            <a href="../java/java_switch.html">Java Switch</a>
+            <a href="../java/java_break_continue.html">Java Break/Continue</a>
+            <h1>JAVA METHODS</h1>
+            <a href="../java/java_method.html">Java Method</a>
+            <a href="../java/java_overloading.html">Java Overloading</a>
+            <a href="../java/java_overiding.html">Java Overriding</a>
+            <h1>JAVA CLASSES</h1>
+            <a href="../java/java_oops.html">Java OOPs</a>
+            <a href="../java/java_classes_objects.html">Java Classes/Objects</a>
+            <a href="../java/java_inheritance.html">Java Inheritance</a>
+            <a href="../java/java_polymorphism.html">Java Polymorphism</a>
+            <a href="../java/java_encapsulation.html">Java Encapsulation</a>
+            <a href="../java/java_abstarction.html">Java Abstraction</a>
+            <a href="../java/java_modifiers.html">Java Modifiers</a>
+            <a href="../java/java_constructors.html">Java Constructors</a>
+            <a href="../java/java_interface.html">Java Interface</a>
+            <a href="../java/java_static_keyword.html">Java static keyword</a>
+            <a href="../java/java_this_keyword.html">Java this keyword</a>
+        </div>
+        <div class="title-content-in-english-hindi">
+            <div class="upper-button">
+                <a href="../java/java_inheritance.html" class="prev">Prev</a>
+                <a href="../java/java_encapsulation.html" class="next">Next</a>
+            </div>
+            <h1>Polymorphism in Java</h1>
+            <p>The word polymorphism means having <strong>many forms</strong>. Polymorphism is one of the most important
+                features of Object-Oriented Programming. Polymorphism allows us to perform a single task in different
+                ways. In other words, it allows us to define one interface and have multiple implementations. The word
+                “poly” means many and “morphs” means forms, So polymorphism means many forms.</p>
+            <h2>There are two types of polymorphism in Java:</h2>
+            <h3>1. Compile-time polymorphism</h3>
+            <h3>2. Runtime polymorphism</h3>
+
+            <img src="polymorphism.png" alt="polymorphism">
+
+            <p><strong>1. Compile-time polymorphism:</strong> It is also known as static polymorphism. This type of
+                polymorphism is achieved by operator overloading or function overloading. But java support function
+                overloading not Operator Overloading.</p>
+
+            <p><strong>Method Overloading: </strong>Writing two or more methods in the same class in such a way that
+                each method has same name but change in number of arguments or/and change in type of arguments is called
+                method overloading.</p>
+            <h2>Example:</h2>
+            <pre class="language-java"><code>
+// Java program for Method overloading
+    
+class OverloadingClass {
+    
+    // Method with 2 parameter
+    static int multiply(int a, int b)
+    {
+        return a * b;
+    }
+    
+    // Method with the same name but 3 parameter
+    static int multiply(int a, int b, int c)
+    {
+        return a * b * c;
+    }
+}
+    
+class Simple {
+    public static void main(String[] args)
+    {
+        OverloadingClass obj = new OverloadingClass();
+
+        System.out.println(obj.multiply(4, 1));
+    
+        System.out.println(obj.multiply(4, 2, 3));
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>4</pre>
+                <pre>24</pre>
+            </div>
+            <h2>Example 2:</h2>
+
+            <pre class="language-java"><code>// Java program for Method overloading
+  
+class OverloadingClass {
+    
+    // Method with 2 parameter
+    static int multiply(int a, int b)
+    {
+        return a * b;
+    }
+    
+    // Method with the same name but 2 double parameter
+    static double multiply(double a, double b)
+    {
+        return a * b;
+    }
+}
+    
+class Simple {
+    public static void main(String[] args)
+    {
+    
+        OverloadingClass obj = new OverloadingClass();
+
+        System.out.println(obj.multiply(3, 4));
+    
+        System.out.println(obj.multiply(2.5, 3.3));
+    }
+}</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>12</pre>
+                <pre>8.25</pre>
+            </div>
+
+            <p><strong>2. Runtime polymorphism:</strong> Runtime polymorphism in java is also known as <strong>Dynamic
+                    Binding</strong> or <strong>Dynamic Method Dispatch</strong>. In this process, the call to an
+                overridden method is resolved <strong>dynamically</strong> at runtime rather than at compile-time.
+                Runtime polymorphism is achieved through <strong>Method Overriding</strong>.</p>
+            <p><strong>Method overriding: </strong>Writing two or more method with the same name and same signature is
+                called method overriding. Method overriding is achived by inheritance. When a super class method is
+                overridden by the sub class method , JVM calls only the sub class method and never the super class
+                method that means we can say that the sub class method is replacing the super class method.</p>
+            <h2>Example:</h2>
+            <pre class="language-java"><code>class Phone{  
+    void run()
+    {
+        System.out.println("Phone");
+    }  
+}  
+class SmartPhone extends Phone{  
+    void run()
+    {
+        System.out.println("SmartPhone");
+    }  
+
+    public static void main(String args[]){  
+    Phone p = new SmartPhone();  
+    p.run();  
+    }  
+} </code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>SmartPhone</pre>
+            </div>
+
+            <h2>Example 2:</h2>
+            <pre class="language-java"><code>class Sum
+{
+    void sum(int a)
+    {       
+        System.out.println("Area is "+(a*a));
+    }
+}
+class Sum2 extends Sum
+{
+    void sum(int a)
+    {     
+        System.out.println("Area is "+Math.sqrt(a));
+    }
+}
+
+class Overriding
+{
+    public static void main(String []args)
+    {
+        Sum2 obj = new Sum2();
+        obj.sum(9);
+    }
+}	
+
+</code></pre>
+            <p>Output:</p>
+            <div class="output">
+                <pre>Area is 3.0</pre>
+            </div>
+            <div class="buttom-button">
+                <a href="../java/java_inheritance.html" class="prev">Prev</a>
+                <a href="../java/java_encapsulation.html" class="next">Next</a>
+            </div>
+        </div>
+        <div class="ads">
+        
+        </div>
+
+
+    </section>
+    <!-- SECTION FOOTER -->
+
+    <section id="Footer">
+        <h2>Copyright © 2021-2022 rJTutorial.com | All right reserved</h2>
+        <h2>Designed by rJCode</h2>
+      </section>
+
+
+</body>
+
+<script src="../for-all.js"></script>
+<script src="../index.js"></script>
+
+</html>
